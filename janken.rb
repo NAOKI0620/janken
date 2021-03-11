@@ -21,7 +21,7 @@ loop do
         puts "引き分けざます。"
         puts "あいこで。。。"
         puts "もう一度初めからよ"
-      elsif (my_hand==1 && enemy_hand==2) || (my_hand==2 && enemy_hand==1) || (my_hand==3 && enemy_hand==1) 
+      elsif (my_hand==0 && enemy_hand==1) || (my_hand==1 && enemy_hand==2) || (my_hand==2 && enemy_hand==0) 
         puts "あなた:#{jankens[my_hand]} ミナーミー:#{jankens[enemy_hand]}"
         puts "あなたの勝ちよ。あっちむいてホイで勝ってみなさい"
         puts "------------------------------------------------"
